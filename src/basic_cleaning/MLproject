@@ -6,28 +6,28 @@ entry_points:
     parameters:
 
       input_artifact:
-        description: ## ADD DESCRIPTION
-        type: string
+        description: Fully qualified name for the artifact to be cleaned
+        type: str
 
       output_artifact:
-        description: ## ADD DESCRIPTION
-        type: string
+        description: Name for the W&B artifact that will be created and store the cleaned data
+        type: str
 
       output_type:
-        description: ## ADD DESCRIPTION
-        type: string
+        description: Type for the W&B artifact that will be created
+        type: str
 
       output_description:
-        description: ## ADD DESCRIPTION
-        type: string
+        description: Description for the W&B artifact that will be created
+        type: str
 
       min_price:
-        description: ## ADD DESCRIPTION
-        type: string
+        description: Minimum price for a rental to be included in the cleaned dataset
+        type: float
 
       max_price:
-        description: ## ADD DESCRIPTION
-        type: string
+        description: Maximum price for a rental to be included in the cleaned dataset
+        type: float
 
 
     command: >-
